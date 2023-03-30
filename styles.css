@@ -5,6 +5,10 @@
     font: Helvetica Neue, sans-serif;
 }
 
+.nav-item a:hover {
+    color: white;
+}
+
 .nav-colorbg {
     background: #343a40;
 }
@@ -14,13 +18,13 @@
 }
 
 .header-css {
-    padding: 15px 0px;
+    padding: 12px 0px;
 }
 
-.innerhead-css {
+/* .innerhead-css {
     margin: 0px 15px;
 
-}
+} */
 
 .order-btn {
     padding: 0;
@@ -57,7 +61,12 @@
 .btn-order:hover {
     background-color: #00ac4e;
     border-color: #00ac4e;
+    color: white;
 }
+
+/* .header-menu {
+    width: 750px;
+} */
 
 /* .navbar-nav {
     margin: auto;
@@ -72,6 +81,8 @@ video {
 /* .content {
     margin: 5px 15px;
 } */
+
+
 
 img {
     vertical-align: middle;

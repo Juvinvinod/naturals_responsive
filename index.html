@@ -15,64 +15,85 @@
 <body>
     <!-- header starts here -->
     <header>
-        <nav class="navbar navbar-expand-lg justify-content-center nav-colorbg header-css">
-            <div class=" container-fluid innerhead-css">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg justify-content-center nav-colorbg header-css">
+                <div class=" container-fluid innerhead-css mx-1">
 
-                <div class="navbar-brand row">
-                    <div class="col">
-                        <img src="./images/Logo.png" alt="">
+                    <div class="navbar-brand row px-2">
+                        <div class="col">
+                            <a href="http://naturalicecreams.in/"> <img src="./images/Logo.png" alt=""></a>
+                        </div>
+                        <div class="col order-btn">
+                            <a href="https://thrivenow.in/natural-ice-cream-all-locations/select-outlet/delivery"
+                                class="text-reset text-decoration-none"></a>
+                            <button type="button" class="btn btn-primary nav-link btn-order hidden-xs">
+                                Order now
+                            </button></a>
+                        </div>
                     </div>
-                    <div class="col order-btn">
-                        <button type="button" class="btn btn-primary nav-link btn-order hidden-xs">
-                            Order now
-                        </button>
+                    <button class="navbar-toggler  navbar-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 header-menu ">
+
+                            <li class="nav-item ">
+                                <a class="nav-link custom-nav-link"
+                                    href="http://naturalicecreams.in/ingredient-story">Ingredient story</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <div class="row ">
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/category/round-the-year/">ROUND THE
+                                                YEAR</a></li>
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/category/festive-special/">FESTIVE
+                                                SPECIAL </a></li>
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/category/seasonal/">SEASONAL</a></li>
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/category/friday-funday/">FRIDAY FUNDAY
+                                            </a></li>
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/berry-festival-coming-soon/">BERRY
+                                                FESTIVAL</a></li>
+                                        <li class="col"><a class="dropdown-item"
+                                                href="http://naturalicecreams.in/category/dry-fruits/">SUNDAES</a></li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link" href="http://naturalicecreams.in/our-legacy">Our
+                                    Legacy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link" href="http://naturalicecreams.in/malai/">Malai</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link"
+                                    href="http://naturalicecreams.in/franchise-queries">Franchise Queries</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link"
+                                    href="http://naturalicecreams.in/store-locator">Store locator</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <button class="navbar-toggler  navbar-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                        <li class="nav-item">
-                            <a class="nav-link custom-nav-link" href="#">Ingredient story</a>
-                        </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Products
-                            </a>
-                            <ul class="dropdown-menu">
-                                <div class="row ">
-                                    <li class="col"><a class="dropdown-item" href="#">ROUND THE YEAR</a></li>
-                                    <li class="col"><a class="dropdown-item" href="#">FESTIVE SPECIAL </a></li>
-                                    <li class="col"><a class="dropdown-item" href="#">SEASONAL</a></li>
-                                    <li class="col"><a class="dropdown-item" href="#">FRIDAY FUNDAY </a></li>
-                                    <li class="col"><a class="dropdown-item" href="#">BERRY FESTIVAL</a></li>
-                                    <li class="col"><a class="dropdown-item" href="#">SUNDAES</a></li>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link custom-nav-link" href="#">Our Legacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link custom-nav-link" href="#">Malai</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link custom-nav-link" href="#">Franchise Queries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link custom-nav-link" href="#">Store locator</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <!-- carousal  -->
@@ -101,15 +122,25 @@
     <div class="content ">
         <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-inner px-3">
-                <div class="carousel-item active">
-                    <a href="https://naturalicecreams.in/ingredient-story"> <img src="./images/mango-whats-new.jpg"
-                            class="d-block w-100 image_slide" alt="..."> </a>
+                <div class="carousel-item active position-relative">
+                    <img src="./images/mango-whats-new.jpg" class="d-block w-100 image_slide" alt="..."> </a>
+                    <div class="row">
+                        <a href="https://instagram.com/naturalicecream"> <button
+                                class="btn btn-light position-absolute top-50 start-50 translate-middle fw-bold fs-6  image-button">
+                                What's New</button></a>
+                    </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item position-relative">
                     <img src="./images/mango-whats-new-2.jpg" class="d-block w-100 image_slide" alt="...">
+                    <a href="https://instagram.com/naturalicecream"> <button
+                            class="btn btn-light position-absolute top-50 start-50 translate-middle fw-bold fs-6 image-button">
+                            What's New</button></a>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item position-relative">
                     <img src="./images/whats-new-3-4.jpg" class="d-block w-100 image_slide" alt="...">
+                    <a href="https://instagram.com/naturalicecream"> <button
+                            class="btn btn-light position-absolute top-50 start-50 translate-middle fw-bold fs-6 image-button">
+                            What's New</button></a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -182,7 +213,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./images/NOW-resized.jpg" alt="" class="img-fluid">
+                    <a href="https://naturalicecreams.in/naturals-now"> <img src="./images/NOW-resized.jpg" alt=""
+                            class="img-fluid"></a>
                 </div>
             </div>
 
